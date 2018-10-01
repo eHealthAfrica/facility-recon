@@ -163,7 +163,8 @@ function processOrgUnit(metadata, hasKey) {
   async.each(metadata.organisationUnits, (org, nxtOrg) => {
     const name = credentials.name;
     const clientId = credentials.clientId;
-    const database = toTitleCase(name);
+    // const database = toTitleCase(name);
+    const database = 'GeoAlign';
 
     // winston.info(`Processing (${i}/${max}) ${org.id}`);
     const fhir = {

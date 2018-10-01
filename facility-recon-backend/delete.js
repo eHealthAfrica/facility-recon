@@ -5,6 +5,6 @@ var filter = function(stat, path) {
   return true
 };
 
-var files = Finder.from(__dirname + '/lib/dbArhives').filter(filter).findFiles((files)=>{
+var files = Finder.from(__dirname + '/lib/dbArchives').filter(filter).findFiles((files)=>{
 	console.log(files)
 });

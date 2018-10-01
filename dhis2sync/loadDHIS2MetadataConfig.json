@@ -1,9 +1,10 @@
 {
+  "//": "hearth",
   "ilr": {
-    "url": "http://localhost:3447/fhir",
+    "url": "http://localhost:3447/GeoAlign/fhir",
     "user": "",
     "pass": "",
-    "doc": ""
+    "doc": "play"
   },
   "dhis2": {
     "url": "https://play.dhis2.org/2.30",
